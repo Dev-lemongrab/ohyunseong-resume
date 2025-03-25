@@ -1,131 +1,83 @@
 // app/page.tsx
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl p-6">
-      <section className="mb-8 text-center">
-        <h1 className="text-4xl font-bold">오윤성</h1>
-        <p className="text-lg text-gray-600">웹 개발자 | 프론트엔드 & 백엔드</p>
-        <p className="text-sm text-gray-500">
-          ohyuns0716@gmail.com | github.com/ohyunseong
+    <main className="mx-auto max-w-3xl p-6 font-sans text-gray-800">
+      {/* 프로필 */}
+      <section className="mb-10 text-center">
+        <h1 className="text-primary text-4xl font-bold">오윤성</h1>
+        <p className="mt-2 text-lg">웹 개발자 | 프론트엔드 & 백엔드</p>
+        <p className="mt-1 text-sm text-gray-500">
+          📧 ohyuns0716@gmail.com |
+          <a
+            href="https://github.com/Dev-lemongrab"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-secondary hover:underline"
+          >
+            💻 {'My Github Address'}
+          </a>
         </p>
       </section>
 
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold">경력</h2>
-        <ul className="mt-2 space-y-2 text-gray-700">
-          <li>2022 ~ 현재: 더존비즈온 – ERP 백엔드 개발</li>
-          <li>2020 ~ 2022: 스타트업 – 프론트엔드 개발</li>
-        </ul>
+      {/* 경력 */}
+      <section className="mb-10">
+        <h2 className="text-primary mb-2 text-2xl font-semibold">경력</h2>
+        <div className="mb-4">
+          <p className="font-medium">더존비즈온</p>
+          <p className="text-sm text-gray-600">2022.08 ~ 현재</p>
+          <ul className="mt-1 list-inside list-disc text-sm text-gray-700">
+            <li>ERP 풀스택 개발</li>
+            <li>소프트웨어 영업모듈 패키지 기획 / 설계 및 개발</li>
+            <li>
+              🔗{' '}
+              <a
+                href="https://portfolio-ohyunseong.notion.site/douzone-work"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary hover:underline"
+              >
+                🔥더존 업무정리 노션 바로가기 👉
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold">기술 스택</h2>
-        <p className="mt-2">Java, Spring Boot, React, JavaScript, MySQL, AWS</p>
+      {/* 경험 */}
+      <section className="mb-10">
+        <h2 className="text-primary mb-2 text-2xl font-semibold">
+          사이드 프로젝트
+        </h2>
+        <div className="mb-4">
+          <p className="font-medium">뽀또픽 (Photopic)</p>
+          <p className="text-sm text-gray-600">2025.02 ~ 현재</p>
+          <ul className="mt-1 list-inside list-disc text-sm text-gray-700">
+            <li>PM 역할 수행: 팀 리딩, 기획, 리서치, 이터레이션 관리</li>
+            <li>SQL을 활용한 데이터 분석</li>
+            <li>
+              커뮤니티형 투표 웹/모바일 어플리케이션
+              <br />
+              🔗{' '}
+              <a
+                href="https://photopic.site"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-secondary hover:underline"
+              >
+                🔥뽀또픽 바로가기 👉
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      {/* 기술 스택 */}
+      <section className="mb-10">
+        <h2 className="text-primary mb-2 text-2xl font-semibold">기술 스택</h2>
+        <p className="text-sm text-gray-700">
+          Java, Spring Boot, React, JavaScript, MySQL, AWS
+        </p>
       </section>
     </main>
   );
 }
-
-// import Image from "next/image";
-//
-// export default function Home() {
-//   return (
-//     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-//       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-//         <Image
-//           className="dark:invert"
-//           src="/next.svg"
-//           alt="Next.js logo"
-//           width={180}
-//           height={38}
-//           priority
-//         />
-//         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-//           <li className="mb-2 tracking-[-.01em]">
-//             Get started by editing{" "}
-//             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-//               src/app/page.tsx
-//             </code>
-//             .
-//           </li>
-//           <li className="tracking-[-.01em]">
-//             Save and see your changes instantly.
-//           </li>
-//         </ol>
-//
-//         <div className="flex gap-4 items-center flex-col sm:flex-row">
-//           <a
-//             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-//             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             <Image
-//               className="dark:invert"
-//               src="/vercel.svg"
-//               alt="Vercel logomark"
-//               width={20}
-//               height={20}
-//             />
-//             Deploy now
-//           </a>
-//           <a
-//             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-//             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Read our docs
-//           </a>
-//         </div>
-//       </main>
-//       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-//         <a
-//           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-//           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           <Image
-//             aria-hidden
-//             src="/file.svg"
-//             alt="File icon"
-//             width={16}
-//             height={16}
-//           />
-//           Learn
-//         </a>
-//         <a
-//           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-//           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           <Image
-//             aria-hidden
-//             src="/window.svg"
-//             alt="Window icon"
-//             width={16}
-//             height={16}
-//           />
-//           Examples
-//         </a>
-//         <a
-//           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-//           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           <Image
-//             aria-hidden
-//             src="/globe.svg"
-//             alt="Globe icon"
-//             width={16}
-//             height={16}
-//           />
-//           Go to nextjs.org →
-//         </a>
-//       </footer>
-//     </div>
-//   );
-// }

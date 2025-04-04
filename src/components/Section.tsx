@@ -1,15 +1,17 @@
+
 type SectionProps = {
   title: string;
   children: React.ReactNode;
 };
 
-const Section = ({ title, children }: SectionProps) => {
+export default function Section({ title, children }: SectionProps) {
   return (
-    <section className="my-8">
-      <h2 className="mb-2 text-2xl font-semibold text-blue-600">{title}</h2>
+    <section className="bg-white shadow-md rounded-lg p-6 my-8 border border-gray-100">
+      <h2 className="text-xl font-bold inline-block mb-4 relative">
+        <span className="z-10 relative">{title}</span>
+        <span className="absolute left-0 bottom-1 w-full h-2 bg-blue-100 z-0 rounded"></span>
+      </h2>
       <div className="text-gray-800">{children}</div>
     </section>
   );
-};
-
-export default Section;
+}

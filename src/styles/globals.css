@@ -5,6 +5,10 @@
 
 body {
   @apply font-sans;
-  background-color: #f9fafb;
+  /*background-color: #f9fafb;*/
   color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
 }

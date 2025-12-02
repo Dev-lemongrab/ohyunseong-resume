@@ -103,15 +103,15 @@ const SKILLS = [
 
 export function InformationSection() {
   return (
-    <section className="pb-28 px-8">
+    <section className="px-8">
       <div className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
         <div>
           <div className="mb-10">
             <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Education & Certifications
+              📚 교육과 자격증명
             </Typography>
             <Typography variant="lead" className="!text-gray-500">
-              See my education history.
+              학력, 교육, 자격증을 확인해보세요.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
@@ -123,10 +123,10 @@ export function InformationSection() {
         <div>
           <div className="mb-10">
             <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Experience
+              💼 경력과 활동
             </Typography>
             <Typography variant="lead" className="!text-gray-500">
-              See my experience as a developer.
+              개발자 경력과 관련 활동을 확인해보세요.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
@@ -140,10 +140,10 @@ export function InformationSection() {
         <div>
           <div className="mb-10">
             <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              Skills
+              🛠️기술스택
             </Typography>
             <Typography variant="lead" className="!text-gray-500">
-              Check out my technical and soft skills.
+              활용가능한 기술을 확인해보세요.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">

@@ -3,10 +3,10 @@ import {
   Navbar as MTNavbar,
   Collapse,
   Button,
-  IconButton,
-  Typography,
+  IconButton
 } from "@material-tailwind/react";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
+import Typography from "@/components/common/Typography";
 
 const NAV_MENU = ["About", "Blog", "Contact"];
 

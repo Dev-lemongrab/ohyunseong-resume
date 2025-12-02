@@ -2,7 +2,8 @@
 
 import React from "react";
 import Image from "next/image";
-import { Typography, Card, CardBody, Avatar } from "@material-tailwind/react";
+import { Card, CardBody, Avatar } from "@material-tailwind/react";
+import Typography from "@/components/common/Typography";
 
 
 export function Testimonial() {

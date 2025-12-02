@@ -1,6 +1,7 @@
 "use client";
 
-import { IconButton, Typography } from "@material-tailwind/react";
+import Typography from "@/components/common/Typography";
+import { IconButton } from "@material-tailwind/react";
 
 function Hero() {
   return (

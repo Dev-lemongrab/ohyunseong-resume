@@ -10,11 +10,10 @@ export function Testimonial() {
   const [active, setActive] = React.useState(3);
 
   return (
-    <section className="py-12 px-8 lg:py-24">
+    <section className="px-8">
       <div className="container max-w-screen-lg mx-auto">
         <div className="container mx-auto mb-20 text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
-                    My Resume
+          <Typography variant="h2" color="blue-gray" className="mb-4">
           </Typography>
         </div>
 
@@ -22,11 +21,11 @@ export function Testimonial() {
           <CardBody className="w-full lg:gap-10 h-full lg:!flex justify-between ">
             <div className="w-full mb-10 lg:mb-0">
               <Typography
-                variant="h3"
+                variant="h2"
                 color="blue-gray"
                 className="mb-4 font-bold lg:max-w-xs"
               >
-                Mobile App Development
+                ERP 백앤드 개발자
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
                 I had the pleasure of working with Lily on a critical web
@@ -45,7 +44,7 @@ export function Testimonial() {
               <div className="flex items-center gap-4">
                 <Avatar
                   variant="rounded"
-                  src="/image/profile.jpeg"
+                  src="/image/profile1.jpeg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
@@ -56,7 +55,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
                   variant="rounded"
-                  src="/image/profile.jpeg"
+                  src="/image/profile1.jpeg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
@@ -67,7 +66,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100" />
                 <Avatar
                   variant="rounded"
-                  src="/image/profile.jpeg"
+                  src="/image/profile1.jpeg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${

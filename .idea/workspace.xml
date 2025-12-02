@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d3daac-59c4-41d6-8218-88372d87fcf2" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/types/material-tailwind.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Typography.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Typography.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

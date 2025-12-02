@@ -1,91 +1,94 @@
-# Magic Portfolio
+# [NextJS Tailwind Resume Page](http://demos.creative-tim.com/nextjs-tailwind-resume-page?ref=readme-ntrp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-resume-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-resume-page)
 
-Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-resume-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-resume-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues?q=is%3Aissue+is%3Aclosed)
 
-View the demo [here](https://demo.magic-portfolio.com).
+![Image](https://s3.amazonaws.com/creativetim_bucket/products/748/original/material-tailwind-react-resume-template-thumbnail.jpg)
 
-![Magic Portfolio](public/images/og/home.jpg)
+Introducing Tailwind Resume Page, a professional and visually appealing resume web page template crafted using Tailwind CSS and Material Tailwind.
 
-## Getting started
+Are you on the hunt for a pre-designed and highly customizable resume web page template, perfect for job seekers, professionals, and freelancers looking to showcase their skills and qualifications online? Your search ends here! We are delighted to present the Free Resume Page Template, thoughtfully designed to cater to web developers looking to create a strong online resume.
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+This template is built with the power of Tailwind CSS and Material Tailwind, providing seamless customization to match your unique personal branding. The free resume template includes key features such as hero image, logo, features, and testimonial sections.
 
-**2. Install dependencies**
-```
-npm install
-```
+**Documentation built by Developers**
 
-**3. Run dev server**
-```
-npm run dev
-```
+Each element is well presented in very complex documentation.
 
-**4. Edit config**
-```
-src/resources/once-ui.config.js
-```
+You can read more about the [documentation here](https://www.material-tailwind.com/docs/react/installation).
 
-**5. Edit content**
-```
-src/resources/content.js
-```
+**HELPFUL LINKS**
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
-```
+- View [Github Repository](https://github.com/creativetimofficial/nextjs-tailwind-resume-page)
+- Check [FAQ Page](https://www.creative-tim.com/faq)
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+## [Demo](https://creative-tim.com/product/nextjs-tailwind-resume-page)
+
+## Quick start
+
+Quick start options:
+
+- Download from [Creative Tim](https://www.creative-tim.com/product/nextjs-tailwind-resume-page?ref=readme-ntrp).
+
+## Terminal Commands
+
+1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
+2. Navigate to the root ./ directory of the product and run `npm install` to install our local dependencies.
 
 ## Documentation
 
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
+The documentation for the Material Dashboard is hosted at our [website](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntrp).
 
-## Features
+## Browser Support
 
-### Once UI
-- All tokens, components & features of [Once UI](https://once-ui.com)
+At present, we officially aim to support the last two versions of the following browsers:
 
-### SEO
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-### Design
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+## Resources
 
-### Content
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
+- [Live Preview](https://demos.creative-tim.com/nextjs-tailwind-resume-page?ref=readme-ntrp)
+- [Download Page](https://www.creative-tim.com/product/nextjs-tailwind-resume-page?ref=readme-ntrp)
+- Documentation is [here](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntrp)
+- [License Agreement](https://www.creative-tim.com/license?ref=readme-ntrp)
+- [Support](https://www.creative-tim.com/contact-us?ref=readme-ntrp)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues)
+- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
 
-### Localization
-- A localized, earlier version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
+## Reporting Issues
 
-## Creators
+We use GitHub Issues as the official bug tracker for the Nextjs Tailwind Author Page. Here are some advices for our users that want to report an issue:
 
-Lorant One: [Threads](https://www.threads.net/@lorant.one) / [LinkedIn](https://www.linkedin.com/in/lorant-one/)
+1. Make sure that you are using the latest version of the Nextjs Tailwind Author Page. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/nextjs-tailwind-resume-page?ref=readme-ntrp).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-## Get involved
+## Technical Support or Questions
 
-- Join the Design Engineers Club on [Discord](https://discord.com/invite/5EyAQ4eNdS) and share your project with us!
-- Deployed your docs? Share it on the [Once UI Hub](https://once-ui.com/hub) too! We feature our favorite apps on our landing page.
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-ntrp) instead of opening an issue.
 
-## License
+## Licensing
 
-Distributed under the CC BY-NC 4.0 License.
-- Attribution is required.
-- Commercial usage is not allowed.
-- You can extend the license to [Dopler CC](https://dopler.app/license) by purchasing a [Once UI Pro](https://once-ui.com/pricing) license.
+- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-ntrp)
+- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-ntrp)
 
-See `LICENSE.txt` for more information.
+## Useful Links
 
-## Deploy with Vercel
+- [More products](https://www.creative-tim.com/templates?ref=readme-ntrp) from Creative Tim
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+
+- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-ntrp) from Creative Tim
+
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-ntrp) (earn money)
+
+##### Social Media
+
+Twitter: <https://twitter.com/CreativeTim>
+
+Facebook: <https://www.facebook.com/CreativeTim>
+
+Dribbble: <https://dribbble.com/creativetim>
+
+Google+: <https://plus.google.com/+CreativetimPage>
+
+Instagram: <https://instagram.com/creativetimofficial>

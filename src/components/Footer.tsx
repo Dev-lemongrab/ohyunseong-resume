@@ -1,52 +1,42 @@
-import { Row, IconButton, SmartLink, Text } from "@once-ui-system/core";
-import { person, social } from "@/resources";
-import styles from "./Footer.module.scss";
+import { Typography, Button } from "@material-tailwind/react";
 
-export const Footer = () => {
-  const currentYear = new Date().getFullYear();
+const LINKS = ["Home", "About Us", "Blog", "Service"];
+const CURRENT_YEAR = new Date().getFullYear();
 
+export function Footer() {
   return (
-    <Row as="footer" fillWidth padding="8" horizontal="center" s={{ direction: "column" }}>
-      <Row
-        className={styles.mobile}
-        maxWidth="m"
-        paddingY="8"
-        paddingX="16"
-        gap="16"
-        horizontal="between"
-        vertical="center"
-        s={{
-          direction: "column",
-          horizontal: "center",
-          align: "center",
-        }}
-      >
-        <Text variant="body-default-s" onBackground="neutral-strong">
-          <Text onBackground="neutral-weak">© {currentYear} /</Text>
-          <Text paddingX="4">{person.name}</Text>
-          <Text onBackground="neutral-weak">
-            {/* Usage of this template requires attribution. Please don't remove the link to Once UI unless you have a Pro license. */}
-            / Build your portfolio with{" "}
-            <SmartLink href="https://once-ui.com/products/magic-portfolio">Once UI</SmartLink>
-          </Text>
-        </Text>
-        <Row gap="16">
-          {social.map(
-            (item) =>
-              item.link && (
-                <IconButton
-                  key={item.name}
-                  href={item.link}
-                  icon={item.icon}
-                  tooltip={item.name}
-                  size="s"
-                  variant="ghost"
-                />
-              ),
-          )}
-        </Row>
-      </Row>
-      <Row height="80" hide s={{ hide: false }} />
-    </Row>
+    <footer className="mt-10 px-8 pt-20">
+      <div className="container mx-auto">
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 border-t border-gray-200 py-6 md:justify-between">
+          <Typography className="text-center font-normal !text-gray-700">
+            &copy; {CURRENT_YEAR} Made with{" "}
+            <a href="https://www.material-tailwind.com" target="_blank">
+              Material Tailwind
+            </a>{" "}
+            by{" "}
+            <a href="https://www.creative-tim.com" target="_blank">
+              Creative Tim
+            </a>
+            .
+          </Typography>
+          <ul className="flex gap-8 items-center">
+            {LINKS.map((link) => (
+              <li key={link}>
+                <Typography
+                  as="a"
+                  href="#"
+                  variant="small"
+                  className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
+                >
+                  {link}
+                </Typography>
+              </li>
+            ))}
+            <Button color="gray">subscribe</Button>
+          </ul>
+        </div>
+      </div>
+    </footer>
   );
-};
+}
+export default Footer;

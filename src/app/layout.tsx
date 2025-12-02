@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Resume Tailwind",
+  title: "Oh YunSeong — Resume",
   description:
-    "Download Tailwind Resume Page a Free Landing Page Template developed by Creative Tim. Based on Tailwind CSS and Material Tailwind, see the live demo on our site and join over 2.000.000 web creatives!",
+    "Backend Engineer with experience in ERP, API design, and scalable systems.",
 };
 
 export default function RootLayout({

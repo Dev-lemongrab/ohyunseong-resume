@@ -10,9 +10,9 @@ export default function Portfolio() {
   return (
     <>
       <Navbar />
+      <Testimonial />
       <Hero />
       <InformationSection />
-      <Testimonial />
       <Footer />
     </>
   );

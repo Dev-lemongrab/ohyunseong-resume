@@ -12,17 +12,11 @@ export function Testimonial() {
     <section className="py-12 px-8 lg:py-24">
       <div className="container max-w-screen-lg mx-auto">
         <div className="container mx-auto mb-20 text-center">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
-            What Clients Say
-          </Typography>
-          <Typography
-            variant="lead"
-            className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
-          >
-            Discover what clients have to say about their experiences working
-            with me. My client&apos;s satisfaction is my greatest achievement!
+          <Typography variant="h1" color="blue-gray" className="mb-4">
+                    My Resume
           </Typography>
         </div>
+
         <Card color="transparent" shadow={false} className="py-8 lg:flex-row">
           <CardBody className="w-full lg:gap-10 h-full lg:!flex justify-between ">
             <div className="w-full mb-10 lg:mb-0">

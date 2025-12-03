@@ -10,6 +10,8 @@ export function Testimonial() {
   const [active, setActive] = React.useState(1);
   const start = '2022';
   const now = new Date().getFullYear();
+  const career = now - start + 1;
+
 
   return (
     <section className="px-8">
@@ -30,7 +32,7 @@ export function Testimonial() {
                 ERP 서버 개발자
               </Typography>
               <Typography as="div" className="mb-4 w-full xls:w-8/12 font-normal !text-gray-500">
-                총 경력 {now - start + 1}년차로 ERP 소프트웨어영업(SS) 모듈을 담당했습니다.<br/>
+                총 경력 {career}년차로 ERP 소프트웨어영업(SS) 모듈을 담당했습니다.<br/>
                 더존비즈온에서 2년 6개월 동안 도메인의 비즈니스 모델 분석, 도메인 설계,<br/>서버 개발을 진행했습니다.<br/>
                 8개월간은 PM 역할을 겸하며 고객 중심의 서비스 가치 제공에 집중했습니다.<br/>
                 고객가치에 대해 깊이 고민해볼 수 있는 기회를 갖고 싶습니다.<br/>

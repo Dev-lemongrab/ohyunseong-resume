@@ -8,8 +8,29 @@ import {
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import Typography from "@/components/common/Typography";
 
-const NAV_MENU = ["About", "Blog", "Contact"];
-
+const NAV_MENU = [
+  { label: "About", href: "/#", newTab: false},
+  { label: "Blog", href: "https://velog.io/@oh_yunseong/posts", newTab: true},
+  { label: "Portfolio", href: "https://ohyunseong.notion.site/yunseong-oh-portfolio", newTab: true},
+];
+function NavItem({ label, href, newTab = false }: { label: string; href: string; newTab?: boolean; }) {
+  return (
+    <li>
+      <Typography
+        as="a"
+        href={href}
+        target={newTab ? "_blank" : "_self"}
+        rel={newTab ? "noopener noreferrer" : undefined}
+        variant="paragraph"
+        color="gray"
+        className="flex items-center gap-2 font-medium text-gray-900"
+      >
+        {label}
+      </Typography>
+    </li>
+  );
+}
+{/**
 function NavItem({ children }: { children: React.ReactNode }) {
   return (
     <li>
@@ -25,7 +46,7 @@ function NavItem({ children }: { children: React.ReactNode }) {
     </li>
   );
 }
-
+ */}
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
 
@@ -59,10 +80,17 @@ export function Navbar() {
           Oh! YunSeong
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
+          {NAV_MENU.map((item) => (
+            <NavItem key={item.label} label={item.label} href={item.href} newTab={item.newTab}/>
+          ))}
+        </ul>
+        {/**
+        <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map((nav) => (
             <NavItem key={nav}>{nav}</NavItem>
           ))}
         </ul>
+         */}
         {/*
         <div className="hidden items-center gap-2 lg:flex">
 
@@ -92,11 +120,18 @@ export function Navbar() {
 
       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
+        <ul className="flex flex-col gap-4">
+          {NAV_MENU.map((item) => (
+            <NavItem key={item.label} label={item.label} href={item.href} newTab={item.newTab}/>
+          ))}
+        </ul>
+        {/**
           <ul className="flex flex-col gap-4">
             {NAV_MENU.map((nav) => (
               <NavItem key={nav}>{nav}</NavItem>
             ))}
           </ul>
+           */}
           {/**
           <div className="mt-6 mb-4 flex items-center gap-2">
             <Button variant="text">Log in</Button>

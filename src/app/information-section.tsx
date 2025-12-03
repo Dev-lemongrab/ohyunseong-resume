@@ -108,6 +108,21 @@ export function InformationSection() {
         <div>
           <div className="mb-10">
             <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
+              💼 경력과 활동
+            </Typography>
+            <Typography variant="lead" className="!text-gray-500">
+              개발 경력과 관련 활동을 확인해보세요.
+            </Typography>
+          </div>
+            <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
+            {EXPERIENCE.map((props, idx) => (
+              <InfoCard key={idx} {...props} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <div className="mb-10">
+            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
               📚 교육과 자격증명
             </Typography>
             <Typography variant="lead" className="!text-gray-500">
@@ -120,21 +135,7 @@ export function InformationSection() {
             ))}
           </div>
         </div>
-        <div>
-          <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
-              💼 경력과 활동
-            </Typography>
-            <Typography variant="lead" className="!text-gray-500">
-              개발자 경력과 관련 활동을 확인해보세요.
-            </Typography>
-          </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
-            {EXPERIENCE.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
-            ))}
-          </div>
-        </div>
+
       </div>
       <div className="container gap-20 mt-36 mx-auto items-center">
         <div>

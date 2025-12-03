@@ -8,7 +8,7 @@ import Typography from "@/components/common/Typography";
 
 export function Testimonial() {
   const [active, setActive] = React.useState(1);
-  const start = '2022';
+  const start = 2022;
   const now = new Date().getFullYear();
   const career = now - start + 1;
 

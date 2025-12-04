@@ -5,7 +5,6 @@ import {
   BriefcaseIcon,
   FireIcon,
 } from "@heroicons/react/24/solid";
-
 import InfoCard from "@/components/info-card";
 
 const EDUCATION = [
@@ -42,17 +41,17 @@ const EDUCATION = [
 const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
-    title: "Freelancer Web Developer",
-    date: "2023 - PRESENT",
+    title: "더존비즈온",
+    date: "2022 - 2025",
     children:
-      "The core of my work involved actual web development. I would write code, design layouts, and create functionality based on the project's specifications.",
+      "더존비즈온 ERP10 소프트웨어영업 모듈(SS) 설계 및 개발 & PM. ",
   },
   {
     icon: BriefcaseIcon,
-    title: "Technical Team Lead",
-    date: "2021 - 2023",
+    title: "CHOOZ",
+    date: "2022 - present",
     children:
-      "I provided strong leadership by overseeing and guiding a team of highly skilled technical professionals.",
+      "고민되는 사진을 올리고, 투표 하는 커뮤니티형 서비스",
   },
   {
     icon: BriefcaseIcon,
@@ -73,31 +72,31 @@ const EXPERIENCE = [
 const SKILLS = [
   {
     icon: FireIcon,
-    title: "Front-End Frameworks",
+    title: "Java, Js, Ts",
     date: "Technical Skills",
     children:
-      "Competent in working with front-end frameworks such as React, Angular, or Vue.js to develop dynamic and responsive web applications with a focus on user experience.",
+      "",
   },
   {
     icon: FireIcon,
-    title: "Attention to Detail",
-    date: "Soft Skills",
+    title: "Spring boot(Security, Batch, JPA)",
+    date: "Web Framework",
     children:
-      "Meticulous attention to detail in code quality, user interface design, and testing to ensure error-free and user-friendly web applications.",
+      "",
   },
   {
     icon: FireIcon,
-    title: "Responsive Web Design",
-    date: "Technical Skills",
+    title: "Oracle, MySql, MariaDB, QDSL, My-batis",
+    date: "SQL & ORM",
     children:
-      "Skilled in creating responsive layouts using CSS Grid, Flexbox, and media queries. Ensures websites adapt seamlessly to various screen sizes and devices.",
+      "",
   },
   {
     icon: FireIcon,
-    title: "Time Management",
-    date: "Soft Skills",
+    title: "AWS(EC2, RDS, S3, FrontCloud)",
+    date: "Dev-ops",
     children:
-      "Excellent time management skills to meet project deadlines, prioritize tasks effectively, and handle multiple projects simultaneously.",
+      "",
   },
 ];
 

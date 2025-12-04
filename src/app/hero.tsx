@@ -20,7 +20,7 @@ function Hero() {
             </Typography>
           <Typography
             variant="lead"
-            className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl text-gray-900"
+            className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl text-gray-800"
           >
           문제를 구조화하고 해결하는 과정에서 가장 큰 동력을 얻는 개발자입니다.<br/>
           더존비즈온에서 ERP 영업·EC 모듈을 설계·개발하며, 요구사항 구현을 넘어서 왜 이 문제가 발생했는지, 더 나은 프로세스는 무엇인지를 정의하는 데 집중해왔습니다.

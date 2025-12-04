@@ -1,5 +1,6 @@
 import { Button, IconButton } from "@material-tailwind/react";
 import Typography from "@/components/common/Typography";
+import Image from "next/image";
 
 const LINKS = ["About", "Blog", "Contact"];
 const CURRENT_YEAR = new Date().getFullYear();
@@ -11,18 +12,41 @@ export function Footer() {
       <div className="grid place-items-center px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
             <Typography className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase">
-            Connect me on:
+            Connect me on :)
             </Typography>
             <div className="gap-2 lg:flex">
+            <a
+                href="https://link.rmbr.in/rzcvwy"
+                target="_blank"
+                rel=""
+            >
             <IconButton variant="text" color="gray">
-                <i className="fa-brands fa-facebook text-lg" />
+                <Image
+                    src="/image/remember.png"
+                    alt="Remember"
+                    width={30}
+                    height={30}
+                  />
             </IconButton>
+            </a>
+            <a
+                href="https://www.linkedin.com/in/%EC%9C%A4%EC%84%B1-%EC%98%A4-a4397a344/"
+                target="_blank"
+                rel=""
+            >
             <IconButton variant="text" color="gray">
-                <i className="fa-brands fa-instagram text-lg" />
+                <i className="fa-brands fa-linkedin text-xl"></i>
             </IconButton>
+            </a>
+            <a
+                href="https://github.com/Dev-lemongrab"
+                target="_blank"
+                rel=""
+            >
             <IconButton variant="text" color="gray">
-                <i className="fa-brands fa-github text-lg" />
+                <i className="fa-brands fa-github text-xl" />
             </IconButton>
+            </a>
             </div>
             </div>
         </div>

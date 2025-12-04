@@ -11,48 +11,51 @@ export function Footer() {
       <div className="container mx-auto">
       <div className="grid place-items-center px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
-            <Typography className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase">
-            Connect me on :)
-            </Typography>
-            <div className="gap-2 lg:flex">
-            <a
-                href="https://link.rmbr.in/rzcvwy"
-                target="_blank"
-                rel=""
-            >
-            <IconButton variant="text" color="gray">
-                <Image
-                    src="/image/remember.png"
-                    alt="Remember"
-                    width={30}
-                    height={30}
-                  />
-            </IconButton>
-            </a>
-            <a
-                href="https://www.linkedin.com/in/%EC%9C%A4%EC%84%B1-%EC%98%A4-a4397a344/"
-                target="_blank"
-                rel=""
-            >
-            <IconButton variant="text" color="gray">
-                <i className="fa-brands fa-linkedin text-xl"></i>
-            </IconButton>
-            </a>
-            <a
-                href="https://github.com/Dev-lemongrab"
-                target="_blank"
-                rel=""
-            >
-            <IconButton variant="text" color="gray">
-                <i className="fa-brands fa-github text-xl" />
-            </IconButton>
-            </a>
-            </div>
+
             </div>
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 border-t border-gray-200 py-6 md:justify-between">
           <Typography className="text-center font-normal !text-gray-700">
+          Connect me on :)
           </Typography>
+          <Typography className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase">
+
+                      </Typography>
+                      <div className="gap-2 lg:flex">
+                      <a
+                          href="https://link.rmbr.in/rzcvwy"
+                          target="_blank"
+                          rel=""
+                      >
+                      <IconButton variant="text" color="gray">
+                          <Image
+                              src="/image/remember.png"
+                              alt="Remember"
+                              width={30}
+                              height={30}
+                            />
+                      </IconButton>
+                      </a>
+                      <a
+                          href="https://www.linkedin.com/in/%EC%9C%A4%EC%84%B1-%EC%98%A4-a4397a344/"
+                          target="_blank"
+                          rel=""
+                      >
+                      <IconButton variant="text" color="gray">
+                          <i className="fa-brands fa-linkedin text-2xl"></i>
+                      </IconButton>
+                      </a>
+                      <a
+                          href="https://github.com/Dev-lemongrab"
+                          target="_blank"
+                          rel=""
+                      >
+                      <IconButton variant="text" color="gray">
+                          <i className="fa-brands fa-github text-xl" />
+                      </IconButton>
+                      </a>
+                      </div>
+          {/*
           <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
               <li key={link}>
@@ -66,8 +69,9 @@ export function Footer() {
                 </Typography>
               </li>
             ))}
-            {/*<Button color="gray">subscribe</Button>*/}
+            {/*<Button color="gray">subscribe</Button>
           </ul>
+          */}
         </div>
       </div>
     </footer>

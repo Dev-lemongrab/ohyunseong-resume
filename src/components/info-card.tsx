@@ -39,6 +39,22 @@ export function InfoCard({ icon: Icon, title, date, children }: InfoCardProps) {
       <CardBody className="grid justify-start !px-3.5 pt-2">
         <Typography className=" font-normal !text-gray-500">
           {children}
+          {title === '사이드프로젝트 - CHOOZ' && (
+          <a
+            href="https://www.chooz.site/"
+            target="_blank"
+          >
+             <br/>츄즈로 이동하기!&nbsp;🚀
+          </a>
+          )}
+          {title === '더존비즈온' && (
+            <a
+              href="https://ohyunseong.notion.site/yunseong-oh-portfolio"
+              target="_blank"
+            >
+               <br/>Portfolio 이동하기!&nbsp;🚀
+            </a>
+          )}
         </Typography>
       </CardBody>
     </Card>

@@ -72,28 +72,28 @@ const EXPERIENCE = [
 const SKILLS = [
   {
     icon: FireIcon,
-    title: "Java, Js, Ts",
+    title: "Java, Js",
     date: "Technical Skills",
     children:
-      "",
+      "Ts, Python",
   },
   {
     icon: FireIcon,
-    title: "Spring boot(Security, Batch, JPA)",
+    title: "Spring boot - Batch, JPA",
     date: "Web Framework",
     children:
-      "",
+      "Security",
   },
   {
     icon: FireIcon,
-    title: "Oracle, MySql, MariaDB, QDSL, My-batis",
+    title: "Oracle, MySql, QDSL, My-batis",
     date: "SQL & ORM",
     children:
       "",
   },
   {
     icon: FireIcon,
-    title: "AWS(EC2, RDS, S3, FrontCloud)",
+    title: "AWS(EC2, RDS, S3, CloudFront)",
     date: "Dev-ops",
     children:
       "",

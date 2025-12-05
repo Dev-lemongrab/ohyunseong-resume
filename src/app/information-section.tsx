@@ -10,31 +10,31 @@ import InfoCard from "@/components/info-card";
 const EDUCATION = [
   {
     icon: AcademicCapIcon,
-    title: "Certified Web Developer - Web Development Institute",
-    date: "2016",
+    title: "SQLD",
+    date: "2022.6",
     children:
-      "This comprehensive program covered HTML5, CSS3, JavaScript, responsive design, server-side scripting, and web security.",
+      "한국데이터산업진흥원",
   },
   {
     icon: AcademicCapIcon,
-    title: "Responsive Web Design Certification - FreeCodeCamp",
-    date: "2015",
+    title: "정보처리기사",
+    date: "2021.8",
     children:
-      "The Responsive Web Design certification signifies competence in designing and developing websites that adapt seamlessly to various screen sizes and devices.",
+      "한국산업인력공단",
   },
   {
     icon: AcademicCapIcon,
-    title: "JavaScript Developer Certification - Code Academy",
-    date: "2014",
+    title: "학점은행",
+    date: "2021 - 2022",
     children:
-      "This certification demonstrates advanced proficiency in JavaScript programming, including ES6 features and practical applications.",
+      "컴퓨터공학",
   },
   {
     icon: AcademicCapIcon,
-    title: "Bachelor of Science in Computer Science - XYZ University",
-    date: "2014-2016",
+    title: "수원대학교",
+    date: "2011-2018",
     children:
-      "Relevant Coursework: Data Structures, Algorithms, Web Development, Software Engineering, Database Management.",
+      "언론정보학과",
   },
 ];
 
@@ -42,30 +42,30 @@ const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
     title: "더존비즈온",
-    date: "2022 - 2025",
+    date: "2022.8 - 2025.12",
     children:
-      "더존비즈온 ERP10 소프트웨어영업 모듈(SS) 설계 및 개발 & PM. ",
+      "더존비즈온 ERP10 소프트웨어영업 모듈(SS) 설계 및 개발 & PM",
   },
   {
     icon: BriefcaseIcon,
-    title: "CHOOZ",
-    date: "2022 - present",
+    title: "사이드프로젝트 - CHOOZ",
+    date: "2025.1 - present",
     children:
-      "고민되는 사진을 올리고, 투표 하는 커뮤니티형 서비스",
+      "고민되는 사진을 올리고, 투표 하는 커뮤니티 서비스",
   },
   {
     icon: BriefcaseIcon,
-    title: "Senior Web Developer",
-    date: "2017 - 2021",
+    title: "더존비즈온 신입 교육 프로젝트 발표 대상",
+    date: "2022.6 - 2022.8",
     children:
-      "Revamped the automated test framework for web services, resulting in a remarkable 90% reduction in debugging and issue resolution time.",
+      "더존 - 한국소프트웨어산업협회, 사내 실시간 공유 자원 예약 시스템",
   },
   {
     icon: BriefcaseIcon,
-    title: "Junior Web Developer",
-    date: "2015 - 2017",
+    title: "AWS를 활용한 클라우드 기반 웹서비스 엔지니어 양성과정",
+    date: "2022.1 - 2022.7",
     children:
-      "Developed 10+ responsive websites for clients in a variety of industries.",
+      "AWS 클라우드 기반 Web Full-Stack(Springboot & React.Js)",
   },
 ];
 

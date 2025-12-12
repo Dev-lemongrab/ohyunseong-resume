@@ -166,9 +166,9 @@ export default function OrgTreemap() {
   // 부모 대비 비율 계산
   const df2 = df.map((row) => {
     const siblings = df.filter((r) => r.parent === row.parent);
-    const siblingSum = siblings.reduce((acc, r) => acc + r.size, 0);
+    const siblingSum = siblings.reduce((acc, r) => acc + (r.size ?? 0), 0);
 
-    const ratio = siblingSum > 0 ? row.size / siblingSum : 1.0;
+    const ratio = siblingSum > 0 ? ((row.size ?? 0) / siblingSum) : 1.0;
 
     return {
       ...row,

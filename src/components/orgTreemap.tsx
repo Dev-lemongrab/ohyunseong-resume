@@ -4,7 +4,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 
 // Plotly는 SSR 불가능 → 클라이언트 사이드 렌더링 전용 import
-const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
+const Plot: any = dynamic(() => import("react-plotly.js"), { ssr: false });
 
 export default function OrgTreemap() {
   // -----------------------------

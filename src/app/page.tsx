@@ -6,6 +6,7 @@ import Hero from "./hero";
 import InformationSection from "./information-section";
 import Testimonial from "./testimonial";
 import OrgTreemap from "@/components/orgTreemap";
+import OrgTreemap2 from "@/components/orgTreemap2";
 
 export default function Portfolio() {
   return (
@@ -18,7 +19,7 @@ export default function Portfolio() {
       <Footer />
        */}
      <OrgTreemap />
-
+        <OrgTreemap2 />
     </>
   );
 }

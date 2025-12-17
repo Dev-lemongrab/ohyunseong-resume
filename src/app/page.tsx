@@ -18,7 +18,7 @@ export default function Portfolio() {
       <InformationSection />
       <Footer />
        */}
-     <OrgTreemap />
+        <OrgTreemap />
         <OrgTreemap2 />
     </>
   );
